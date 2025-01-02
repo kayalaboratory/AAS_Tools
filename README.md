@@ -96,6 +96,7 @@ topics = [
     "RecyclingStripper/Tray25Temperature",
   ]
 ```
+![image](https://github.com/user-attachments/assets/a2bc3b7c-bc0f-4e17-9de4-cbf01964343f)
 
 Or you can simply edit the telegraf.conf file to write data to InfluxDB. Eclipse BaSyx fetches data from InfluxDB as described in article, so you can also edit the "Query" parameter in AASX file by opening it with AASX Package Explorer. 
 
@@ -103,7 +104,9 @@ Another option is importing data to InfluxDB by using other implementations. Inf
 
 ![image](https://github.com/user-attachments/assets/a1a4b572-8f7b-4f2f-a2ad-6118408deae9)
 
+To perform a quick analysis, you can also go to localhost:8086 after running the Docker containers, access to InfluxDB by entering username and password and import the query.csy file in the repo into the bucket. Thus, you can instantly view the time series in Eclipse BaSyx.
 
+![image](https://github.com/user-attachments/assets/61d2a401-869d-450f-aaa4-0c263d2ba07b)
 
 
 
