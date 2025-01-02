@@ -99,6 +99,9 @@ topics = [
 
 Or you can simply edit the telegraf.conf file to write data to InfluxDB. Eclipse BaSyx fetches data from InfluxDB as described in article, so you can also edit the "Query" parameter in AASX file by opening it with AASX Package Explorer. 
 
+Another option is importing data to InfluxDB by using other implementations. InfluxDB has various plugins that supports data integration.
+
+![image](https://github.com/user-attachments/assets/a1a4b572-8f7b-4f2f-a2ad-6118408deae9)
 
 
 
